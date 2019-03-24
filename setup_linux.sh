@@ -6,3 +6,4 @@ sudo apt-get -y install libcurl4-openssl-dev
 sudo easy_install pip
 sudo pip install virtualenv virtualenvwrapper python-dateutil
 sudo apt-get install -y vim
+sudo apt-get install -y openjdk-8-*

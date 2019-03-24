@@ -1,2 +1,9 @@
 #!/bin/bash
 ./setup_linux.sh
+./setup_hadoop_user.sh
+./configure_ssh.sh
+./disable_ipv6.sh
+./install_hadoop.sh
+./setup_environment.sh
+./hadoop_configuration.sh
+./format_namenode.sh
