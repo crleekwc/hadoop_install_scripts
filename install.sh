@@ -7,3 +7,4 @@
 ./setup_environment.sh
 ./hadoop_configuration.sh
 ./format_namenode.sh
+./install.sh
