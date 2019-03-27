@@ -22,6 +22,22 @@
 		<value>yarn</value>
 	</property>
 	<property>
+		<name>yarn.app.mapreduce.am.resource.mb</name>
+		<value>512</value>
+	</property>
+	<property>
+		<name>mapreduce.map.memory.mb</name>
+		<value>256</value>
+	</property>
+	<property>
+		<name>mapreduce.reduce.mb</name>
+		<value>256</value>
+	</property>
+	<property>
+		<name>mapreduce.jobhistory.address</name>
+		<value>hadoop-master:10020</value>
+	</property>
+	<property>
 		<name>yarn.app.mapreduce.am.env</name>
 		<value>HADOOP_MAPRED_HOME=/srv/hadoop</value>
 	</property>
