@@ -1,6 +1,7 @@
 #!/bin/bash
 ./setup_linux.sh
 ./setup_hadoop_user.sh
+./add_pubkey.sh
 ./disable_ipv6.sh
 ./install_hadoop.sh
 ./setup_environment.sh
