@@ -8,3 +8,4 @@
 ./hadoop_configuration.sh
 ./format_namenode.sh
 ./install_spark.sh
+./spark_configure.sh
